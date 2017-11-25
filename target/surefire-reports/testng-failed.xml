@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AddToCart]" parallel="methods">
+  <test name="AddToCartChromeTest(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.selenium.tests.AddToCartTests">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="tearDownTest"/>
+          <include name="VerifyProductAddedToCartTest" invocation-numbers="0"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.selenium.tests.AddToCartTests -->
+    </classes>
+  </test> <!-- AddToCartChromeTest(failed) -->
+  <test name="AddToCartFirefoxTest(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.selenium.tests.AddToCartTests">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="tearDownTest"/>
+          <include name="VerifyProductAddedToCartTest" invocation-numbers="0"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.selenium.tests.AddToCartTests -->
+    </classes>
+  </test> <!-- AddToCartFirefoxTest(failed) -->
+</suite> <!-- Failed suite [AddToCart] -->

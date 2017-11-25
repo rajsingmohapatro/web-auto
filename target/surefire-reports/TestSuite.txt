@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 1.417 s <<< FAILURE! - in TestSuite
+setUpTest(com.selenium.tests.AddToCartTests)  Time elapsed: 1.183 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/Maps
+	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:23)
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.Maps
+	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:23)
+
+tearDownTest(com.selenium.tests.AddToCartTests)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUpTest(com.selenium.tests.AddToCartTests)  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/Maps
+	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:23)
+
+tearDownTest(com.selenium.tests.AddToCartTests)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
