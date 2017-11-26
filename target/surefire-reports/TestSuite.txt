@@ -1,20 +1,27 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 1.417 s <<< FAILURE! - in TestSuite
-setUpTest(com.selenium.tests.AddToCartTests)  Time elapsed: 1.183 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: com/google/common/collect/Maps
-	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:23)
-Caused by: java.lang.ClassNotFoundException: com.google.common.collect.Maps
-	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:23)
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 53.936 s <<< FAILURE! - in TestSuite
+setUpTest(com.selenium.tests.AddToCartTests)  Time elapsed: 5.124 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'L75305803', ip: '172.28.128.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CustomFirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x47e934 - <no info>
+   1:           0x47f0a3 - <no info>
+   2:           0x442511 - <no info>
+   3:           0x4436da - <no info>
+   4:           0x42a890 - <no info>
+   5:           0x406f5e - <no info>
+   6:           0x40cfc9 - <no info>
+   7:           0x6bef19 - <no info>
+   8:           0x420756 - <no info>
+   9:           0x6b96e0 - <no info>
+  10:     0x7ffe7a6a13d2 - BaseThreadInitThunk
+	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:26)
 
-tearDownTest(com.selenium.tests.AddToCartTests)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-
-setUpTest(com.selenium.tests.AddToCartTests)  Time elapsed: 0.065 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: com/google/common/collect/Maps
-	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:23)
-
-tearDownTest(com.selenium.tests.AddToCartTests)  Time elapsed: 0.001 s  <<< FAILURE!
+tearDownTest(com.selenium.tests.AddToCartTests)  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.NullPointerException
 

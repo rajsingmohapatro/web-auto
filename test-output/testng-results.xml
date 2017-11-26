@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AddToCart" duration-ms="73818" started-at="2017-11-26T12:23:25Z" finished-at="2017-11-26T12:24:39Z">
+  <suite name="AddToCart" duration-ms="71573" started-at="2017-11-26T20:34:20Z" finished-at="2017-11-26T20:35:31Z">
     <groups>
     </groups>
-    <test name="AddToCartFirefoxTest" duration-ms="9446" started-at="2017-11-26T12:23:25Z" finished-at="2017-11-26T12:23:34Z">
+    <test name="AddToCartFirefoxTest" duration-ms="9340" started-at="2017-11-26T20:34:20Z" finished-at="2017-11-26T20:34:29Z">
       <class name="com.selenium.tests.AddToCartTests">
-        <test-method status="FAIL" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="setUpTest" is-config="true" duration-ms="0" started-at="2017-11-26T23:23:25Z" finished-at="2017-11-26T23:23:25Z">
+        <test-method status="FAIL" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@18be83e4]" name="setUpTest" is-config="true" duration-ms="0" started-at="2017-11-27T07:34:20Z" finished-at="2017-11-27T07:34:20Z">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@ remote stacktrace: stack backtrace:
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
 	at com.selenium.utils.CustomFirefoxDriver.getDriver(CustomFirefoxDriver.java:30)
-	at com.selenium.utils.BrowserSession.GetBrowserSession(BrowserSession.java:25)
+	at com.selenium.utils.BrowserSession.GetBrowserSession(BrowserSession.java:26)
 	at com.selenium.tests.BaseTest.setUpTest(BaseTest.java:18)
 	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -103,7 +103,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="SKIP" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="VerifyProductAddedToCartTest" duration-ms="3" started-at="2017-11-26T23:23:34Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-26T23:23:34Z">
+        <test-method status="SKIP" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@18be83e4]" name="VerifyProductAddedToCartTest" duration-ms="4" started-at="2017-11-27T07:34:29Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-27T07:34:29Z">
           <params>
             <param index="0">
               <value>
@@ -172,7 +172,7 @@ remote stacktrace: stack backtrace:
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
 	at com.selenium.utils.CustomFirefoxDriver.getDriver(CustomFirefoxDriver.java:30)
-	at com.selenium.utils.BrowserSession.GetBrowserSession(BrowserSession.java:25)
+	at com.selenium.utils.BrowserSession.GetBrowserSession(BrowserSession.java:26)
 	at com.selenium.tests.BaseTest.setUpTest(BaseTest.java:18)
 	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -199,7 +199,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyProductAddedToCartTest -->
-        <test-method status="FAIL" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2017-11-26T23:23:34Z" finished-at="2017-11-26T23:23:34Z">
+        <test-method status="FAIL" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@18be83e4]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2017-11-27T07:34:29Z" finished-at="2017-11-27T07:34:29Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -230,9 +230,9 @@ remote stacktrace: stack backtrace:
         </test-method> <!-- tearDownTest -->
       </class> <!-- com.selenium.tests.AddToCartTests -->
     </test> <!-- AddToCartFirefoxTest -->
-    <test name="AddToCartChromeTest" duration-ms="73818" started-at="2017-11-26T12:23:25Z" finished-at="2017-11-26T12:24:39Z">
+    <test name="AddToCartChromeTest" duration-ms="71573" started-at="2017-11-26T20:34:20Z" finished-at="2017-11-26T20:35:31Z">
       <class name="com.selenium.tests.AddToCartTests">
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="setUpTest" is-config="true" duration-ms="6024" started-at="2017-11-26T23:23:25Z" finished-at="2017-11-26T23:23:31Z">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@4520ebad]" name="setUpTest" is-config="true" duration-ms="5760" started-at="2017-11-27T07:34:20Z" finished-at="2017-11-27T07:34:25Z">
           <params>
             <param index="0">
               <value>
@@ -243,7 +243,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="VerifyProductAddedToCartTest" duration-ms="66962" started-at="2017-11-26T23:23:31Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-26T23:24:38Z">
+        <test-method status="PASS" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@4520ebad]" name="VerifyProductAddedToCartTest" duration-ms="64919" started-at="2017-11-27T07:34:25Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-27T07:35:30Z">
           <params>
             <param index="0">
               <value>
@@ -254,7 +254,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyProductAddedToCartTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="tearDownTest" is-config="true" duration-ms="811" started-at="2017-11-26T23:24:38Z" finished-at="2017-11-26T23:24:39Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@4520ebad]" name="tearDownTest" is-config="true" duration-ms="869" started-at="2017-11-27T07:35:30Z" finished-at="2017-11-27T07:35:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
