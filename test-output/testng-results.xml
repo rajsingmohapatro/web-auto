@@ -2,42 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="AddToCart" duration-ms="64976" started-at="2017-11-25T22:01:29Z" finished-at="2017-11-25T22:02:34Z">
+  <suite name="AddToCart" duration-ms="52830" started-at="2017-11-26T08:36:59Z" finished-at="2017-11-26T08:37:51Z">
     <groups>
     </groups>
-    <test name="AddToCartChromeTest" duration-ms="44278" started-at="2017-11-25T22:01:29Z" finished-at="2017-11-25T22:02:13Z">
+    <test name="AddToCartFirefoxTest" duration-ms="30408" started-at="2017-11-26T08:36:59Z" finished-at="2017-11-26T08:37:29Z">
       <class name="com.selenium.tests.AddToCartTests">
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="setUpTest" is-config="true" duration-ms="5869" started-at="2017-11-26T09:01:29Z" finished-at="2017-11-26T09:01:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="VerifyProductAddedToCartTest" duration-ms="37596" started-at="2017-11-26T09:01:35Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-26T09:02:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyProductAddedToCartTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="tearDownTest" is-config="true" duration-ms="793" started-at="2017-11-26T09:02:12Z" finished-at="2017-11-26T09:02:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- com.selenium.tests.AddToCartTests -->
-    </test> <!-- AddToCartChromeTest -->
-    <test name="AddToCartFirefoxTest" duration-ms="20646" started-at="2017-11-25T22:02:13Z" finished-at="2017-11-25T22:02:34Z">
-      <class name="com.selenium.tests.AddToCartTests">
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="setUpTest" is-config="true" duration-ms="3916" started-at="2017-11-26T09:02:13Z" finished-at="2017-11-26T09:02:17Z">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="setUpTest" is-config="true" duration-ms="6587" started-at="2017-11-26T19:36:59Z" finished-at="2017-11-26T19:37:05Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="VerifyProductAddedToCartTest" duration-ms="16183" started-at="2017-11-26T09:02:17Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-26T09:02:33Z">
+        <test-method status="PASS" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="VerifyProductAddedToCartTest" duration-ms="22977" started-at="2017-11-26T19:37:05Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-26T19:37:28Z">
           <params>
             <param index="0">
               <value>
@@ -59,11 +29,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyProductAddedToCartTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="tearDownTest" is-config="true" duration-ms="543" started-at="2017-11-26T09:02:33Z" finished-at="2017-11-26T09:02:34Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@55f3ddb1]" name="tearDownTest" is-config="true" duration-ms="831" started-at="2017-11-26T19:37:28Z" finished-at="2017-11-26T19:37:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
       </class> <!-- com.selenium.tests.AddToCartTests -->
     </test> <!-- AddToCartFirefoxTest -->
+    <test name="AddToCartChromeTest" duration-ms="52830" started-at="2017-11-26T08:36:59Z" finished-at="2017-11-26T08:37:51Z">
+      <class name="com.selenium.tests.AddToCartTests">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="setUpTest" is-config="true" duration-ms="6504" started-at="2017-11-26T19:36:59Z" finished-at="2017-11-26T19:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="VerifyProductAddedToCartTest(java.lang.String)[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="VerifyProductAddedToCartTest" duration-ms="45491" started-at="2017-11-26T19:37:05Z" data-provider="toBeReadFromExcelReader" finished-at="2017-11-26T19:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductAddedToCartTest -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.selenium.tests.AddToCartTests@735b5592]" name="tearDownTest" is-config="true" duration-ms="811" started-at="2017-11-26T19:37:51Z" finished-at="2017-11-26T19:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.selenium.tests.AddToCartTests -->
+    </test> <!-- AddToCartChromeTest -->
   </suite> <!-- AddToCart -->
 </testng-results>

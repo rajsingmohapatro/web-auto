@@ -12,12 +12,13 @@ import org.testng.annotations.AfterTest;
 
 public abstract class BaseTest {
   protected WebDriver driver = null;
-  
+  private static ThreadLocal<WebDriver> threadLocalInfo = new ThreadLocal<WebDriver>();
   @BeforeTest(alwaysRun = true)
   public void setUpTest(String browser) {
 	  driver = BrowserSession.GetBrowserSession(browser);
-	  //driver.navigate().to("https://www.google.com");
-	  //driver.manage().window().maximize();
+	  //Make driver and other parameters like screenshot file name available in other classes 
+	  //eg while taking screenshot.
+
 	  
   }
 
