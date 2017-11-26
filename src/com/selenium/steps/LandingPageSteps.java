@@ -1,5 +1,6 @@
 package com.selenium.steps;
 import com.selenium.pages.*;
+import com.selenium.utils.*;
 
 public class LandingPageSteps {
 		private LandingPage landingPage;

@@ -1,16 +1,9 @@
 package com.selenium.utils;
 
-import java.io.File;
-import java.util.List;
-import java.util.Set;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class CustomFirefoxDriver  {
 	private String geckDriverPath =  "\\tools\\geckodriver-v0.19.1-win64\\geckodriver.exe";
@@ -21,9 +14,8 @@ public class CustomFirefoxDriver  {
 	}
 	public WebDriver getDriver()
 	{
-		FirefoxProfile profile = new FirefoxProfile();
-		//profile.setAssumeUntrustedCertificateIssuer(false);
-		//Todo
+
+		//TODO
 		/*if() for proxy settings
 		{
 			//For tests like zap proxy security etc proxy address and ports can be set here. 
@@ -35,7 +27,7 @@ public class CustomFirefoxDriver  {
 		//option.setAcceptInsecureCerts(true)
 		option.setBinary(System.getProperty("user.dir") + pathToFirefoxPortable);
 		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + geckDriverPath);
-		return new FirefoxDriver();
+		return new FirefoxDriver(option);
 		
 	}
 }

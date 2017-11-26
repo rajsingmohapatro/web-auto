@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-AddToCart">
-              <span class="suite-name border-passed">AddToCart</span>
+              <span class="suite-name border-skipped">AddToCart</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AddToCart" class="hide-methods skipped suite-AddToCart"> (hide)</a> <!-- hide-methods skipped suite-AddToCart -->
+                      <a href="#" panel-name="suite-AddToCart" class="show-methods skipped suite-AddToCart"> (show)</a> <!-- show-methods skipped suite-AddToCart -->
+                    </span>
+                    <div class="method-list-content skipped suite-AddToCart">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AddToCart" title="com.selenium.tests.AddToCartTests" hash-for-method="VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)">VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AddToCart -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-AddToCart" class="show-methods passed suite-AddToCart"> (show)</a> <!-- show-methods passed suite-AddToCart -->
                     </span>
                     <div class="method-list-content passed suite-AddToCart">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AddToCart" title="com.selenium.tests.AddToCartTests" hash-for-method="VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)">VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-AddToCart" title="com.selenium.tests.AddToCartTests" hash-for-method="VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)">VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)</a> <!-- method navigator-link -->
@@ -122,9 +131,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-AddToCart" class="panel AddToCart">
-          <div class="suite-AddToCart-class-passed">
+          <div class="suite-AddToCart-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.selenium.tests.AddToCartTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -134,8 +143,62 @@
                   </a> <!-- VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen) -->
                   <span class="method-name">VerifyProductAddedToCartTest</span>
                   <span class="parameters">(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:07:36.161Z&apos;
+System info: host: &apos;L75305803&apos;, ip: &apos;172.28.128.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: CustomFirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x47e934 - &lt;no info&gt;
+   1:           0x47f0a3 - &lt;no info&gt;
+   2:           0x442511 - &lt;no info&gt;
+   3:           0x4436da - &lt;no info&gt;
+   4:           0x42a890 - &lt;no info&gt;
+   5:           0x406f5e - &lt;no info&gt;
+   6:           0x40cfc9 - &lt;no info&gt;
+   7:           0x6bef19 - &lt;no info&gt;
+   8:           0x420756 - &lt;no info&gt;
+   9:           0x6b96e0 - &lt;no info&gt;
+  10:     0x7ffe7a6a13d2 - BaseThreadInitThunk
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.selenium.utils.CustomFirefoxDriver.getDriver(CustomFirefoxDriver.java:30)
+	at com.selenium.utils.BrowserSession.GetBrowserSession(BrowserSession.java:25)
+	at com.selenium.tests.BaseTest.setUpTest(BaseTest.java:18)
+	at com.selenium.tests.AddToCartTests.setUpTest(AddToCartTests.java:26)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AddToCart-class-skipped -->
+          <div class="suite-AddToCart-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.tests.AddToCartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)">
@@ -212,11 +275,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'VerifyProductAddedToCartTest')
 data.setCell(0, 2, 'com.selenium.tests.AddToCartTests')
-data.setCell(0, 3, 45491);
+data.setCell(0, 3, 66962);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'VerifyProductAddedToCartTest')
 data.setCell(1, 2, 'com.selenium.tests.AddToCartTests')
-data.setCell(1, 3, 22977);
+data.setCell(1, 3, 3);
 window.suiteTableData['AddToCart']= { tableData: data, tableDiv: 'times-div-AddToCart'}
 return data;
 }
@@ -249,28 +312,32 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.selenium.tests.AddToCartTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setUpTest(chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUpTest(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)</span>
-                <span class="method-start">6522 ms</span>
+                <span class="method-start">6038 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyProductAddedToCartTest(SanDisk Dual Drive 16GB micro-USB OTG On-The-Go USB 2.0 Flash Drive Thumb Pen)</span>
-                <span class="method-start">6589 ms</span>
+                <span class="method-start">9424 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tearDownTest</span>
-                <span class="method-start">29572 ms</span>
+                <span class="method-start">9432 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownTest</span>
-                <span class="method-start">52014 ms</span>
+                <span class="method-start">73001 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

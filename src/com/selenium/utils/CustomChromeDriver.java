@@ -26,7 +26,6 @@ public class CustomChromeDriver  {
 		//System.setProperty("webdriver.firefox.bin",System.getProperty("user.dir") + pathToFirefoxPortable);
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + chromeDriverPath);
 		options.setBinary(System.getProperty("user.dir") + pathToChromePortable);
-		return new ChromeDriver(options);
-		
+		return new ChromeDriver(options);	
 	}
 }

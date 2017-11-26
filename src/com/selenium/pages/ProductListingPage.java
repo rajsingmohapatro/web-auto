@@ -1,10 +1,5 @@
 package com.selenium.pages;
-
-import java.lang.reflect.Array;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Stream;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
